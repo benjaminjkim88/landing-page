@@ -50,6 +50,11 @@ body {
 
 }
 
+.top-button {
+    display: flex;
+    align-content: center;
+}
+
 .container-one .left h1 {
     font-size: 48px;
     font-weight: 1000px;
@@ -73,19 +78,110 @@ img {
     display: flex;
     margin: auto;
     margin-bottom: 32px;
-    margin-right: 430px;
+    margin-right: 40px;
     justify-items: baseline;
 }
 
 button {
     background-color: #3882F6;
     color: #f9faf8;
+    border-radius: 25px;
+}
+
+.info-header {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    margin-bottom: 64px;
+}
+
+.container-two {
+    height: 2000px;
+}
+.panes {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    margin-bottom: 64px;
+}
+
+.pane {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 150px;
+}
+
+.pane p {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pane .img-ph {
+    height: 150px;
+    width: auto;
+    border: #3882F6;
+    border-style: inset;
+    border-radius: 25px;
 }
 
 .container-three {
     background-color: #E5E7EB;
     font: light italic;
-    color:#1F2937
+    display: flex;
+    flex-direction: column;
+}
+
+.container-three .quote {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 32px;
+    font-style: light italic;
+    color:#1F2937;
+}
+
+.container-three .person {
+    display: flex;
+    justify-content: center;
+    font-weight: 1000;
+    margin-top: -25px;
+    margin-left: 300px;
+    border-radius: 25px;
+}
+
+.container-four {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.small-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    margin: 16px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 10px;
+    height: 100px
+}
+
+.small-box .left {
+    text-align: center;
+    width: 500px;
+    color: #f9faf8;
+}
+
+.small-box .button {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 30px;
+    width: 100px;
 }
 
 .footer {
